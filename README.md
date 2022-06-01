@@ -46,18 +46,19 @@
 - [x] Conexão com API 
 
 <h1 align="left">
-  <img width="270em" height="580em" alt="plant1" title="#plant1" src="./assets/imgProject/plant1.png" />
-  <img width="270em" height="580em" alt="plant2" title="#plant2" src="./assets/imgProject/plamt2.png" />
-  <img width="270em" height="580em" alt="plant3" title="#plant3" src="./assets/imgProject/plant3.png" />
+  <img width="270em" height="580em" alt="plant1" title="#plant1" src="./assets/github/screen1.png" />
+  <img width="270em" height="580em" alt="plant2" title="#plant2" src="./assets/github/screen2.png" />
+  <img width="270em" height="580em" alt="plant3" title="#plant3" src="./assets/github/screen3.png" />
 </h1>
 <h1 align="left">
-  <img width="270em" height="580em" alt="plant4" title="#plant4" src="./assets/imgProject/plant4.png" />
-  <img width="270em" height="580em" alt="plant6" title="#plant6" src="./assets/imgProject/plant6.png" />
-  <img width="270em" height="580em" alt="plant5" title="#plant5" src="./assets/imgProject/plant5.png" />
+  <img width="270em" height="580em" alt="plant4" title="#plant4" src="./assets/github/screen5.png" />
+  <img width="270em" height="580em" alt="plant6" title="#plant6" src="./assets/github/screen6.png" />
+  <img width="270em" height="580em" alt="plant5" title="#plant5" src="./assets/github/screen7.png" />
 </h1>
 <h1 align="left">
-  <img width="270em" height="580em" alt="plant9" title="#plant9" src="./assets/imgProject/plant9.png" />
-  
+  <img width="270em" height="580em" alt="plant9" title="#plant9" src="./assets/github/screen8.png" />
+  <img width="270em" height="580em" alt="plant9" title="#plant9" src="./assets/github/screen9.png" />
+  <img width="270em" height="580em" alt="plant9" title="#plant9" src="./assets/github/screen10.png" />
 </h1>
 
 ## Tecnologias 
