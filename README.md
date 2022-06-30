@@ -7,12 +7,10 @@
 </p>
 
 
-  
   <!--ts-->
    * [Features](#features)
    * [Tecnologias](#tecnologias)
    * [Rodando a Aplicação](#como-executar-o-projeto)
-   * [Como contribuir para o projeto](#como-contribuir-para-o-projeto)
    * [Autor](#autor)
 <!--te-->
 
@@ -38,12 +36,19 @@
 <h4 align="center"> 
     🚧  React Native Select 🚀 concluído...  🚧
  </h4>
- 
+
   ### Features
 
-- [x] Login com Discord
-- [x] Agendar partida
-- [x] Conexão com API 
+-   [ ] Autenticação Social OAuth2 com servidor do Discord.
+-   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
+-   [ ] Lista os servidores do Discord que o usuário faz parte;
+-   [ ] Permite realizar o agendamento de partidas;
+-   [ ] Permite filtrar as partidas por categoria;
+-   [ ] Exibe se a partida foi agendada em um servidor próprio (anfitrião) ou em servidores de outros (convidado);
+-   [ ] Compartilha o convite para ingressar no servidor do usuário;
+-   [ ] Permite redirecionar o usuário para o seu próprio servidor;
+-   [ ] Disponibiliza a função de Logout.
+
 
 <h1 align="left">
   <img width="270em" height="580em" alt="plant1" title="#plant1" src="./assets/github/screen1.png" />
@@ -64,59 +69,64 @@
 ## Tecnologias 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+-   [ ] React Native
+-   [ ] Typescript
+-   [ ] Expo
+-   [ ] Context API
+-   [ ] Async Storage
+-   [ ] Vector Icons
+-   [ ] React Native Svg e Svg Transform
+-   [ ] Axios
+-   [ ] Gradient colors
+-   [ ] OAuth2 Discord 
+-   [ ] Expo Google Fonts
+-   [ ] React Navigation Stack
+-   [ ] React Native Gesture Handler
+-   [ ] Expo Authentication
+-   [ ] React Native Share
+-   [ ] Deep Link
 
 
 ## Como executar o projeto
-💡o Projeto precisa que uma api facke esteja sendo executado para funcionar (utilizo da lib json-server).
-https://www.npmjs.com/package/json-server
 
-### Pré-requisitos
+## Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [NodeJs](https://nodejs.org/en/),
 [NPM](https://www.npmjs.com/) e
 [Expo](https://expo.io/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🚀 Rodando a aplicação
+## Rodando a aplicação
 
-## Clone este repositório
-$ git clone https://github.com/PedroTavolaro/PlantManager.git
+### Clone este repositório
+$ git clone https://github.com/PedroTavolaro/GamePlay.git
 
-## Acesse a pasta do projeto no seu terminal/cmd
-$ cd PlantManager
+### Acesse a pasta do projeto no seu terminal/cmd
+$ cd GamePlay
 
-## Instale as dependências
+### Instale as dependências
 $ npm install ou yarn install
 
-$ veja o arquivo https://github.com/PedroTavolaro/PlantManager/blob/main/package.json e instale suas dependências
+$ veja o arquivo de dependências https://github.com/PedroTavolaro/GamePlay/blob/main/package.json
 
-  ## instalar dependencia global na maquina 
-  $ npm install -g json-server
-  
-  ## Verifique a pasta ./src/services/api.ts
-  $ verifique a linha 4 baseURL: 'http://192.168.1.10:3333' subistitua por 'http://IPDASUAMAQUINA:PORTA' assim alocando o ip da sua maquina e a porta       disponivel para uso. padrão (3333)
-  
-  ## rodar o simulador de api
-  $ json-server ./src/services/server.json --host 192.168.1.4 (subistituir pelo seu ip) --port 3333 (porta padrao)
+Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
+ 
+ ```cl
+REDIRECT_URI=
+SCOPE=
+RESPONSE_TYPE=
+CLIENT_ID=
+CDN_IMAGE=
+```
 
 ## Execute a aplicação
 $ expo start
 
-## Acesse a aplicação apartir do emulador de androind / IOS ou do seu aparelho celular realizando o download do expoClient no PlayStore
+$ Acesse a aplicação apartir do emulador de androind / IOS ou do seu aparelho celular realizando o download do expoClient no PlayStore
 
 ## 📝 Licença
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-## Como contribuir para o projeto
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 ### Autor
 ---
 
